@@ -4,7 +4,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   selector: 'gifs-search-box',
   template: `
   <h5>Buscar:</h5>
-  <input type="text" class="form-control" placeholder="Buscar Gifs" (keyup.enter )="searchTag()" #txtTagInput>
+  <input type="text" class="form-control" placeholder="Buscar Gifs" (keyup.enter)="searchTag()" #txtTagInput>
   `
 })
 export class SearchBoxComponent {
